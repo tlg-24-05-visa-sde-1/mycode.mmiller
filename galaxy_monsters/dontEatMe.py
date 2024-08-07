@@ -6,7 +6,7 @@ def main():
     print("... you've found what appears to be a safe planet to land...")
     print("...but it isn't as safe as it appears to be...")
 
-    weapon_choice == input("What is your weapon of choice? (Blaster Pistol, Thermal Detonator Grenade, or a Gaffi Stick)").lower()
+    weapon_choice = input("What is your weapon of choice? (Blaster Pistol, Thermal Detonator Grenade, or a Gaffi Stick)").lower()
 
     if weapon_choice == "blaster pistol":
         print("You have chosen Blaster Pistol")
@@ -26,9 +26,9 @@ def main():
     print("Suddenly, you stumble upon the Great Pit of Carkoon, home of the deadly Sarlacc!")
     print("You're too close to the pit! The Sarlacc is angry and particularly hungry...")
 
-    survival_choice == input("\nWhat will you do? (Use your weapon (use), Run away(run), Pray to the Sarlacc for mercy(pray))").lower()
+    survival_choice = input("\nWhat will you do? (Use your weapon (use), Run away(run), Pray to the Sarlacc for mercy(pray))").lower()
 
-    if survival_choice == "use weapon":
+    if survival_choice == "use":
         if weapon_choice == "blaster pistol":
             print("\nThe Sarlacc grabs you with its tentacle!")
             print("You shoot the tentacle and the Sarlacc recoils in pain, releasing you!")
